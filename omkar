@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omkar Singh - Educational Courses</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333333;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        section#showcase {
+            min-height: 400px;
+            background: #333333;
+            color: #ffffff;
+            text-align: center;
+            padding: 80px 0;
+        }
+        section#showcase h1 {
+            font-size: 55px;
+            margin-top: 0;
+        }
+        section#showcase p {
+            font-size: 20px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .dark {
+            padding: 15px;
+            background: #333333;
+            color: #ffffff;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .box {
+            float: left;
+            width: 30%;
+            padding: 10px;
+            text-align: center;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #ffffff;
+            background-color: #333333;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Omkar Singh - Educational Courses</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Welcome to the RAS Comprehensive Foundation Course</h1>
+            <p>From Basics to Mastery</p>
+        </div>
+    </section>
+
+    <div class="content container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Omkar Singh, a dedicated educator with a passion for preparing students for their civil service exams. With a strong foundation in teaching and years of experience, I aim to provide the best educational resources to help students succeed.</p>
+        </section>
+
+        <section id="portfolio">
+            <h2>RAS Comprehensive Foundation Course</h2>
+            <div class="box">
+                <h3>📘 RAS Comprehensive Foundation Course: From Basics to Mastery 🌟</h3>
+                <p>Key Features:</p>
+                <ul>
+                    <li>📚 Complete Syllabus Coverage: Every subject of RAS prelims and mains is explained with clarity and understanding.</li>
+                    <li>🎥 Expert Video Lectures: Top-tier lectures for each subject ensuring comprehension and clarity.</li>
+                    <li>📝 Handwritten PDFs: Downloadable handwritten notes for each lecture.</li>
+                    <li>🧠 Topic-wise Quizzes: Test your knowledge after each subject.</li>
+                    <li>📖 Mains Special: Complete coverage of the mains syllabus with video lectures, PDFs, and topic-wise tests.</li>
+                    <li>💬 Weekly Zoom Sessions: Two interactive sessions every week.</li>
+                    <li>🔄 Flexibility: Watch lectures on laptops and iPads, adjust video quality and speed.</li>
+                    <li>📥 Download Option: Option to download videos and PDFs for offline access.</li>
+                    <li>🖨️ Printable PDFs: Download PDFs and print them for offline study.</li>
+                    <li>🌐 Our Vision: Our aim is to prepare dedicated, hardworking, honest, and patriotic civil servants.</li>
+                    <li>💰 Affordable Access: This online course is available at a nominal fee.</li>
+                </ul>
+                <p>📣 Message from Omkar Singh: Dear students, if you wish to prepare best for this exam, trust that this course is the best for you.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you have any questions or need further information, feel free to reach out to me at:</p>
+            <p>Email: <a href="mailto:omkar.singh@example.com">omkar.singh@example.com</a></p>
+        </section>
+
+        <section id="blog">
+            <h2>Blog</h2>
+            <p>Coming soon! Stay tuned for updates and educational articles.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>Omkar Singh &copy; 2024</p>
+    </footer>
+</body>
+</html>
+
+
